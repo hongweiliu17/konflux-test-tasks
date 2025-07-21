@@ -10,7 +10,7 @@ metadata:
   name: deprecated-image-check
 spec:
   description: >-
-    Identifies the unmaintained and potentially insecure deprecated base images.
+    Identifies the unmaintained and potentially insecure deprecated base images 
     Pyxis API collects metadata from image repository, and Conftest applies supplied policy to identify the deprecated images using that metadata.
   params:
     - name: POLICY_DIR
