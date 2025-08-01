@@ -17,7 +17,7 @@ spec:
       description: Images processed in the task.
   params:
     - name: image-digest
-      description: Image digest to scan.
+      description: Image digest to scan
     - name: image-url
       description: Image URL.
     - name: docker-auth
