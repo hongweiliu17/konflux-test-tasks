@@ -9,7 +9,7 @@ metadata:
   name: clamav-scan
 spec:
   description: >-
-    Scans the content of container images for viruses, malware, and other malicious content using ClamAV antivirus scanner.
+    Scans the content of container images for viruses, malware,and other malicious content using ClamAV antivirus scanner.
   results:
     - name: TEST_OUTPUT
       description: Tekton task test output.
@@ -17,7 +17,7 @@ spec:
       description: Images processed in the task.
   params:
     - name: image-digest
-      description: Image digest to scan.
+      description: Image digest to scan
     - name: image-url
       description: Image URL.
     - name: docker-auth
