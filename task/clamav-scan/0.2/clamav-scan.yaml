@@ -33,7 +33,7 @@ spec:
       default: ca-bundle.crt
     - name: scan-threads
       type: string
-      description: Number of threads to run in clamscan parallel. Should be <= 8.
+      description: Number of threads to run in clamscan parallel.Should be <= 8.
       default: "1"
 
   steps:
