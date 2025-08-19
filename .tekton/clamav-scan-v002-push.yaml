@@ -141,6 +141,8 @@ spec:
         value: $(params.output-image).git
       - name: ociArtifactExpiresAfter
         value: $(params.image-expires-after)
+      - name: depth
+        value: 100
       runAfter:
       - init
       taskRef:
@@ -205,7 +207,7 @@ spec:
         - name: name
           value: tkn-bundle-oci-ta
         - name: bundle
-          value: quay.io/hongweiliu/task-tkn-bundle-oci-ta:0.2
+          value: quay.io/hongweiliu/task-tkn-bundle-oci-ta@sha256:a06710219d694e38117f52b6fe286bca6a25bf705bdc6a7cf6e42791e5a0483a
         - name: kind
           value: task
         resolver: bundles
