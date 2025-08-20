@@ -207,7 +207,7 @@ spec:
         - name: name
           value: tkn-bundle-oci-ta
         - name: bundle
-          value: quay.io/hongweiliu/task-tkn-bundle-oci-ta@sha256:7fe3d78d278fa7192b1cf6b3f1a17176224bcce118328b0d1adde78142cec992
+          value: quay.io/hongweiliu/task-tkn-bundle-oci-ta@sha256:73d261665d867d81491c1f114962bb94baa3551d21571f8cf317fb2e67c1180a
         - name: kind
           value: task
         resolver: bundles
