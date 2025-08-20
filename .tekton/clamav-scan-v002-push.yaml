@@ -1,4 +1,4 @@
-apiVersion: tekton.dev/v1
+tapiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
   annotations:
@@ -207,7 +207,7 @@ spec:
         - name: name
           value: tkn-bundle-oci-ta
         - name: bundle
-          value: quay.io/hongweiliu/task-tkn-bundle-oci-ta@sha256:a06710219d694e38117f52b6fe286bca6a25bf705bdc6a7cf6e42791e5a0483a
+          value: quay.io/hongweiliu/task-tkn-bundle-oci-ta@sha256:c02138f7f0869f30d557bafb23a82b2c7e8a2a68b634dd83127a020aedecb6b7
         - name: kind
           value: task
         resolver: bundles
