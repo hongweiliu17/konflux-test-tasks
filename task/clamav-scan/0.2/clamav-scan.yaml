@@ -9,7 +9,7 @@ metadata:
   name: clamav-scan
 spec:
   description: >-
-    Scans the content of container images for viruses, malware, and other malicious content using ClamAV antivirus scanner.
+    Scans the content of container images for viruses, malware,and other malicious content using ClamAV antivirus scanner.
   results:
     - name: TEST_OUTPUT
       description: Tekton task test output.
@@ -33,7 +33,7 @@ spec:
       default: ca-bundle.crt
     - name: scan-threads
       type: string
-      description: Number of threads to run in clamscan parallel. Should be <= 8.
+      description: Number of threads to run in clamscan parallel.Should be <= 8.
       default: "1"
 
   steps:
